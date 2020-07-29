@@ -1,0 +1,18 @@
+-------------------- Auto-Git Log --------------------
+		Wed Jun 24 2020 11:38:54 GMT+0100 (West Africa Standard Time)
+------------------------------------------------------
+
+Modified files:
+* src/App.js
+
+
+Created files:
+* .autogit/logs/log-23-5-2020-13-11-8.txt
+* src/services/fakeGenreService.js
+* src/services/fakeMovieService.js
+
+
+Deleted files:
+
+
+Renamed files:
