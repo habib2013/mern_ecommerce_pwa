@@ -43,7 +43,7 @@ dispatch(listProducts());
         <div className="row">
 
 {products.map(product => 
-        <div className="col-6 col-sm-6 col-md-4 col-lg-3">
+        <div className="col-6 col-sm-6 col-md-3 col-lg-3">
 
         <div className="card mb-7" data-toggle="card-collapse">
 

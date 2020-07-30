@@ -3,6 +3,7 @@ import { addToCart, removeFromCart } from '../actions/cartActions';
 import {useDispatch,useSelector} from 'react-redux';
 import {Link} from 'react-router-dom'
 import NavBar from './navBar';
+import NewNavBar from './newNavBar';
 
 function CartComponent(props){
 
@@ -29,7 +30,7 @@ const checkoutHandler = () => {
 
 return (
    <React.Fragment>
-      <NavBar/>
+      <NewNavBar/>
    <section class="pt-7 pb-12">
    <div class="container">
      <div class="row">
@@ -150,9 +151,9 @@ return (
    
          <button onClick={checkoutHandler} class="btn btn-block btn-dark mb-2" disabled={cartItems.length === 0} >Proceed to Checkout</button>
 
-         <a class="btn btn-link btn-sm px-0 text-body" href="shop.html">
+         <Link className="btn btn-link btn-sm px-0 text-body" to={'/'}>
            <i class="fe fe-arrow-left mr-2"></i> Continue Shopping
-         </a>
+         </Link>
 
        </div>
      </div>
