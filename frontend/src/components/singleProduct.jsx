@@ -97,27 +97,7 @@ var coverdivStyle13 = {
 return (
 <React.Fragment>
 <NewNavBar/>
-<nav class="py-5">
-      <div class="container">
-        <div class="row">
-          <div class="col-12">
 
-            <ol class="breadcrumb mb-0 font-size-xs text-gray-400">
-              <li class="breadcrumb-item">
-                <a class="text-gray-400" href="index-2.html">Home</a>
-              </li>
-              <li class="breadcrumb-item">
-                <a class="text-gray-400" href="shop.html">Women's Shoes</a>
-              </li>
-              <li class="breadcrumb-item active">
-                Leather Sneakers
-              </li>
-            </ol>
-
-          </div>
-        </div>
-      </div>
-    </nav>
     {loading ? <div>Loading ...</div> : error ? <div>{error}</div>: 
     
     <section>
@@ -233,7 +213,7 @@ return (
 
              
                   <p class="mb-5">
-                    Size: <strong><span id="sizeCaption">{product.size}</span> US</strong>
+                    Size: <strong><span id="sizeCaption">{product.size}</span></strong>
                   </p>
 
                 
