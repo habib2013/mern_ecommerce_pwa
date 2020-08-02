@@ -1,0 +1,16 @@
+-------------------- Auto-Git Log --------------------
+		Sun Aug 02 2020 14:40:27 GMT+0100 (West Africa Standard Time)
+------------------------------------------------------
+
+Modified files:
+* .env
+
+
+Created files:
+* .autogit/logs/log-2-7-2020-14-30-29.txt
+
+
+Deleted files:
+
+
+Renamed files:
