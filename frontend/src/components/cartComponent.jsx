@@ -117,11 +117,7 @@ return (
              </form>
 
            </div>
-           <div class="col-12 col-md-auto">
-
-             <button class="btn btn-sm btn-outline-dark">Update Cart</button>
-
-           </div>
+          
          </div>
 
        </div>

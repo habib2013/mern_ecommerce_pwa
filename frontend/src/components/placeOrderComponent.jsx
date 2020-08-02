@@ -38,15 +38,45 @@ return (
      <div class="row">
        <div class="col-12">
 
-         <h3 class="mb-10 text-center">Shopping Cart</h3>
+         <h3 class="mb-10 text-center">CheckOut Page</h3>
 
 <div>
-   {cart.shipping.address},{cart.shipping.city}
-   {cart.shipping.postalcode}, {cart.shipping.country}
+
+   <div class="card card-sm">
+                  <div class="card-body bg-light">
+                    <div class="row">
+                      <div class="col-6 col-lg-3">                     
+                        <h6 class="heading-xxxs text-muted">Shipping Address:</h6>            
+                        <p class="mb-lg-0 font-size-sm font-weight-bold">
+                        {cart.shipping.address}
+                        </p>
+                      </div>
+                      <div class="col-6 col-lg-3">
+                        <h6 class="heading-xxxs text-muted">Shipping City:</h6>
+                        <p class="mb-lg-0 font-size-sm font-weight-bold">
+                          {cart.shipping.city}, {cart.shipping.city}
+                        </p>
+                      </div>
+                      <div class="col-6 col-lg-3">
+                        <h6 class="heading-xxxs text-muted">Postal Code:</h6>
+                        <p class="mb-0 font-size-sm font-weight-bold">
+                        {cart.shipping.postalcode}
+                        </p>
+
+                      </div>
+                      <div class="col-6 col-lg-3">
+                        <h6 class="heading-xxxs text-muted">Payment Method:</h6>
+
+                        <p class="mb-0 font-size-sm font-weight-bold">
+                        {cart.payment.paymentMethod}
+                        </p>
+
+                      </div>
+                    </div>
+                  </div>
+                </div>
 </div>
-<div>
-   Payment Method : {cart.payment.paymentMethod}
-</div>
+
 
        </div>
      </div>
@@ -118,11 +148,7 @@ Qty : {item.qty}
              </form>
 
            </div>
-           <div class="col-12 col-md-auto">
-
-             <button class="btn btn-sm btn-outline-dark">Update Cart</button>
-
-           </div>
+         
          </div>
 
        </div>
