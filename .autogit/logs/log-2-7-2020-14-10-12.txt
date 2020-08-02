@@ -1,0 +1,19 @@
+-------------------- Auto-Git Log --------------------
+		Sun Aug 02 2020 14:10:12 GMT+0100 (West Africa Standard Time)
+------------------------------------------------------
+
+Modified files:
+* .env
+* backend/config.js
+* backend/server.js
+* frontend/package.json
+
+
+Created files:
+* .autogit/logs/log-2-7-2020-14-0-8.txt
+
+
+Deleted files:
+
+
+Renamed files:
